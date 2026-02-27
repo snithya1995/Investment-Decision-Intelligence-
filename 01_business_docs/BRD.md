@@ -62,3 +62,20 @@ Out of Scope
 | Financial Analyst    | Validates financial metrics    |
 | System Administrator | Manages deployment environment |
 
+**Success Metrics**
+
+The success of the Investment Decision Intelligence Platform will be measured using the following metrics:
+
+    - Forecast accuracy (RMSE lower than naive baseline model)
+    - Successful 10-year historical analysis without data gaps
+    - Accurate calculation of financial and risk metrics
+    - System response time below 5 seconds per request
+    - Clear and interpretable investment scoring output
+
+**Assumptions**
+
+    - Financial data APIs provide accurate and consistent historical data.
+    - 10 years of historical stock data are available for most listed companies.
+    - Machine learning models can capture short-to-medium-term trend patterns.
+    - Free-tier cloud infrastructure is sufficient for demo-level usage.
+    - Users understand that this system provides analytical insights, not financial advice.
