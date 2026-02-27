@@ -91,7 +91,8 @@ The success of the Investment Decision Intelligence Platform will be measured us
 
 **High Level Architecture Desgin**
 
-    - The System Architecture consist of the following components
+The System Architecture consist of the following components
+
     - Data Ingestion Layer – Fetches historical stock and financial data.
     - Feature Engineering Layer – Computes growth, risk, and technical indicators.
     - Machine Learning Forecasting Engine – Generates forward price predictions.
