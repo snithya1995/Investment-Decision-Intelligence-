@@ -50,7 +50,6 @@ Out of Scope
       - Real-time trading execution
       - Brokerage account integration
       - Personalized financial advisory services
-      - Regulatory-certified investment advice
       - Real-time intraday trading analytics
 
 **Stakeholders**
