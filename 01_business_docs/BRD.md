@@ -18,4 +18,48 @@ Retail investors and data-driven analysts face the following challenges:
      - Subjective decision-making
      - Fragmented data sources
      
+**Business Objective**
+
 This project aims to solve these challenges by building a structured investment decision system that integrates growth analysis, risk assessment, and predictive modeling into a single analytical framework.
+
+The primary objectives of the Investment Decision Intelligence Platform are:
+
+    - To provide structured 10-year historical performance analysis of publicly traded companies.
+    - To compute financial growth and profitability metrics.
+    - To evaluate risk-adjusted performance indicators.
+    - To forecast 12-month stock price trends using machine learning models.
+    - To generate an interpretable composite investment score.
+    - To provide a structured investment recommendation (Invest / Hold / Caution).
+
+**Project Scope**
+
+In Scope
+
+      - Historical stock price retrieval (10 years)
+      - Financial ratio computation
+      - Growth and profitability analysis
+      - Risk metric calculation (Sharpe ratio, volatility, drawdown)
+      - Time-series forecasting
+      - Composite investment scoring engine
+      - Web-based dashboard
+      - API layer for data retrieval
+      - Free-tier cloud deployment
+
+Out of Scope
+
+      - Real-time trading execution
+      - Brokerage account integration
+      - Personalized financial advisory services
+      - Regulatory-certified investment advice
+      - Real-time intraday trading analytics
+
+**Stakeholders**
+
+| Stakeholder          | Role                           |
+| -------------------- | ------------------------------ |
+| Retail Investor      | End user of the platform       |
+| Data Scientist       | Develops forecasting models    |
+| ML Engineer          | Implements production pipeline |
+| Financial Analyst    | Validates financial metrics    |
+| System Administrator | Manages deployment environment |
+
