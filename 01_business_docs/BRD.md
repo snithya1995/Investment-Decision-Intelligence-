@@ -79,3 +79,24 @@ The success of the Investment Decision Intelligence Platform will be measured us
     - Machine learning models can capture short-to-medium-term trend patterns.
     - Free-tier cloud infrastructure is sufficient for demo-level usage.
     - Users understand that this system provides analytical insights, not financial advice.
+
+**Risk & Mitigations**
+| Risk                   | Description                                        | Mitigation                            |
+| ---------------------- | -------------------------------------------------- | ------------------------------------- |
+| Data API rate limits   | Financial API may restrict requests                | Implement caching and request control |
+| Overfitting            | Forecast model may overfit historical data         | Use cross-validation and backtesting  |
+| Market regime changes  | Sudden market shifts reduce prediction reliability | Include model evaluation reporting    |
+| Data gaps              | Missing financial records                          | Add data validation checks            |
+| Deployment instability | Free cloud tier may sleep                          | Provide local deployment option       |
+
+**High Level Architecture Desgin**
+
+    - The System Architecture consist of the following components
+    - Data Ingestion Layer – Fetches historical stock and financial data.
+    - Feature Engineering Layer – Computes growth, risk, and technical indicators.
+    - Machine Learning Forecasting Engine – Generates forward price predictions.
+    - Investment Scoring Engine – Produces a composite investment score.
+    - API Layer – Exposes structured data services.
+    - Dashboard Interface – Displays interactive visual analytics.
+    - Cloud Deployment Layer – Hosts the application using free-tier infrastructure.
+
