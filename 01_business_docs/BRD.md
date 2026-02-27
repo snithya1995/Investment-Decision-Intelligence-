@@ -9,10 +9,11 @@
   - There is a need for a unified analytical system that consolidates historical data, financial fundamentals, and machine         learning forecasts into a single decision intelligence platform.
     
 **Problem Statement** 
+
 Retail investors and data-driven analysts face the following challenges:
-   - Lack of structured 10-year performance evaluation
-   - No standardized risk-adjusted performance metrics
-   - Absence of ML-based forward-looking insights
-   - Subjective decision-making
-   - Fragmented data sources
+     - Lack of structured 10-year performance evaluation
+     - No standardized risk-adjusted performance metrics
+     - Absence of ML-based forward-looking insights
+     - Subjective decision-making
+     - Fragmented data sources
 This project aims to solve these challenges by building a structured investment decision system that integrates growth analysis, risk assessment, and predictive modeling into a single analytical framework.
