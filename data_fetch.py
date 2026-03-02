@@ -2,6 +2,7 @@
 import yfinance as yf
 import pandas as pd
 from datetime import datetime, timedelta
+from data_validator import DataValidator
 
 # Define a class to fetch stock data and company information
 class StockDataFetcher:
@@ -25,6 +26,9 @@ class StockDataFetcher:
             raise ValueError(f"No data found for ticker {self.ticker}")
 
         df.reset_index(inplace=True)
+        # Validate data
+        if not DataValidator.validate_dataframe(df):
+            print("Data validation warnings detected.")
         return df
 
 # method to fetch company metadata
