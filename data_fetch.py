@@ -3,6 +3,7 @@ import yfinance as yf
 import pandas as pd
 from datetime import datetime, timedelta
 from data_validator import DataValidator
+from technical_indicators import TechnicalIndicators
 
 # Define a class to fetch stock data and company information
 class StockDataFetcher:
@@ -49,3 +50,12 @@ if __name__ == "__main__":
 
     info = fetcher.fetch_company_info()
     print(f"\nCompany Name: {info.get('longName', 'N/A')}")
+
+    data = TechnicalIndicators.add_daily_returns(data)
+    data = TechnicalIndicators.add_moving_averages(data)
+    data = TechnicalIndicators.add_rolling_volatility(data)
+
+    cagr = TechnicalIndicators.calculate_cagr(data)
+    print(f"\n10-Year CAGR: {cagr * 100:.2f}%")
+
+    print(data.tail())
